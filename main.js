@@ -7,9 +7,13 @@ let smalltom = document.querySelector(".f");
 let snare = document.querySelector(".g");
 let splash = document.querySelector(".h");
 
-function bassDrum() {
+bass.addEventListener('click',()=>console.log(1212));
+bassDrum = (e) => {
     const audioBashDrum = new Audio("./asseset/audio/bash.mp3");
-    audioBashDrum.play();
+    if (e.key == 'z') {
+        audioBashDrum.play();
+        bass.click();
+    }
 }
 function hiHit() {
     const audiohiHit = new Audio("./asseset/audio/hithat.mp3");
