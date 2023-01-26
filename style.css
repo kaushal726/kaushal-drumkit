@@ -20,8 +20,9 @@ body {
   border-radius: 20px;
   border-bottom: 10px solid black;
   border-right: 5px solid black;
-  margin: -3% 1%;
-  color: yellowgreen;
+  margin: -2rem 1rem;
+  color: rgb(77, 112, 7);
+  font-family: sans-serif;
 }
 .heading3 {
   text-align: center;
