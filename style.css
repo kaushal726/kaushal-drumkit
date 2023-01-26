@@ -1,30 +1,36 @@
-.main{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(coral, pink, green);
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(250, 245, 245), blue);
+}
+.head {
+  display: inline;
 }
 
 .heading {
+  float: left;
+  padding: 1% 5%;
   text-align: center;
   font-weight: bolder;
-  border-top: 10px solid black;
+  border-radius: 20px;
   border-bottom: 10px solid black;
-  border-left: 5px solid black;
   border-right: 5px solid black;
-  margin: 1% 20% 1% 20%;
-  background-color: rgb(156, 49, 13);
-   background: -webkit-linear-gradient(rgb(11, 3, 87), rgb(233, 7, 7));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  margin: -3% 1%;
+  color: yellowgreen;
 }
 .heading3 {
   text-align: center;
   font-style: italic;
-  font-size: larger;
-  font-weight: bolder;
+  font-size: 3rem;
+  float: unset;
+  padding: 3rem;
 }
-.button{
-    text-align: center;
-    padding: 2%;
+.button {
+  text-align: center;
+  padding: 2%;
 }
