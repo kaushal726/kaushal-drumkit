@@ -33,7 +33,6 @@ document.addEventListener("keypress", (e) => {
         case "k":
             splash1();
             break;
-
         default:
             break;
     }
