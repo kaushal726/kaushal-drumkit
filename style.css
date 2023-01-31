@@ -1,10 +1,10 @@
-body,html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
   background-image: linear-gradient(rgb(250, 245, 245), blue);
-  /* background-color: aquamarine; */
 }
 .head {
   display: inline;
@@ -31,10 +31,13 @@ body,html {
 }
 .button {
   text-align: center;
-  padding: 2%;
+}
+.btn{
+  margin: 0;
+  background: none;
   border: none;
 }
-img{
+img {
   height: 10%;
   width: 50%;
 }
